@@ -1,4 +1,5 @@
 package Padrao.Memento;
 
-public class PedidoEstado {
+public abstract class PedidoEstado {
+    public abstract String getNomeEstado();
 }
